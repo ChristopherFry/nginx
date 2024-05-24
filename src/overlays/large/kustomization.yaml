@@ -1,0 +1,5 @@
+resources:
+- ../../default
+replicas:
+- name: nginx-deployment
+  count: 10
